@@ -1,0 +1,2 @@
+WBAN|WMO|CallSign|ClimateDivisionCode|ClimateDivisionStateCode|ClimateDivisionStationCode|Name|State|Location|Latitude|Longitude|GroundHeight|StationHeight|Barometer|TimeZone
+00100||M89||03||ARKADELPHIA|AR|DEXTER B FLORENCE MEM FLD AP|34.09972|-93.06583|182|||-6

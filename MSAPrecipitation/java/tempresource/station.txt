@@ -1,0 +1,3 @@
+WBAN|WMO|CallSign|ClimateDivisionCode|ClimateDivisionStateCode|ClimateDivisionStationCode|Name|State|Location|Latitude|Longitude|GroundHeight|StationHeight|Barometer|TimeZone
+00103||M89||03||BRKADELPHIA|AR|DEXTER B FLORENCE MEM FLD AP|34.09972|-93.06583|182|||-6
+00102||M89||03||Abilene |TX|DEXTER B FLORENCE MEM FLD AP|34.09972|-93.06583|182|||-6
