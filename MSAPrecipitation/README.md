@@ -1,5 +1,6 @@
 
 About this Application:
+-----------------------
 MSAPrecipitation application calculaes MSA wetness for may 2015 and sorts the MSA list by amount of wetness.
 MSA wetness is calculated by 
 (total population in the month * total rain for the duration) 
@@ -42,8 +43,8 @@ Building Application in Gradle:
 You need to have gradle installed on your system. Add GRADLE_HOME="path_to_gradle_root_dir" and GRADLE_HOME/bin to Path environment variables.
 I used gradle 3.4
 Open a command prompt and cd to the root directory of this project where gradle.build exists then run below commands:
-#gradle build
-#gradle -PmainClass=Driver execute
+gradle build
+gradle -PmainClass=Driver execute
 
 
 Output from Application execution:
