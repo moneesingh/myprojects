@@ -17,6 +17,7 @@ If the wetness of 2 cities are same, sorting is done by alphabetical order city 
 
 Assumptions:  
 Precipitation is considered 0 if the field is non numeric.
+If there is population information for an MSA but there is no precipitation information, MSA wetness is not calculated or listed.
 For each file reading, there is a reader class which documents details about assumption for Javadoc.
 
 
@@ -36,9 +37,17 @@ Download the project to local directory first. I call it 'source directory'. eg.
 9. Right click on the Driver file and run as Java application.
 10. Testcases are in java/test/folder package and can be run by right clicking on the file and run as JUnit test.
 
+Building Application in Gradle:
+------------------------------
+You need to have gradle installed on your system. Add GRADLE_HOME="path_to_gradle_root_dir" and GRADLE_HOME/bin to Path environment variables.
+I used gradle 3.4
+Open a command prompt and cd to the root directory of this project where gradle.build exists then run below commands:
+>gradle build
+>gradle -PmainClass=Driver execute
 
-Output from eclipse run:
---------------------------
+
+Output from Application execution:
+---------------------------------
 Before sorting
 MSAWetness{California-Lexington Park, MD: 70030.2}
 MSAWetness{Fremont, NE: 22179.602}
@@ -65,3 +74,4 @@ MSAWetness{Pullman, WA: 51691.2}
 MSAWetness{California-Lexington Park, MD: 70030.2}
 MSAWetness{Quincy, IL-MO: 122590.4}
 MSAWetness{Huffington-South Burlington, VT: 261372.02}
+
