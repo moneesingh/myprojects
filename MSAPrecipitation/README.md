@@ -50,7 +50,9 @@ $gradle -PmainClass=Driver execute
 Output from Application execution:
 ---------------------------------
 Before sorting
+
 MSAWetness
+
 {California-Lexington Park, MD: 70030.2}
 {Fremont, NE: 22179.602}
 {Abilene, TX: 50343.902}
@@ -65,7 +67,9 @@ MSAWetness
 {Huffington-South Burlington, VT: 261372.02}
 
 After sorting
+
 MSAWetness
+
 {Gaffney, SC: 0.0}
 {Price, UT: 0.0}
 {Raymondville, TX: 0.0}
