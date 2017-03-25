@@ -50,29 +50,32 @@ $gradle -PmainClass=Driver execute
 Output from Application execution:
 ---------------------------------
 Before sorting
-MSAWetness{California-Lexington Park, MD: 70030.2}
-MSAWetness{Fremont, NE: 22179.602}
-MSAWetness{Abilene, TX: 50343.902}
-MSAWetness{Abilene, TX: 16781.3}
-MSAWetness{BRKADELPHIA, AR: 12090.601}
-MSAWetness{Fremont, OH: 12103.601}
-MSAWetness{Gaffney, SC: 0.0}
-MSAWetness{Price, UT: 0.0}
-MSAWetness{Pullman, WA: 51691.2}
-MSAWetness{Quincy, IL-MO: 122590.4}
-MSAWetness{Raymondville, TX: 0.0}
-MSAWetness{Huffington-South Burlington, VT: 261372.02}
+MSAWetness
+{California-Lexington Park, MD: 70030.2}
+{Fremont, NE: 22179.602}
+{Abilene, TX: 50343.902}
+{Abilene, TX: 16781.3}
+{BRKADELPHIA, AR: 12090.601}
+{Fremont, OH: 12103.601}
+{Gaffney, SC: 0.0}
+{Price, UT: 0.0}
+{Pullman, WA: 51691.2}
+{Quincy, IL-MO: 122590.4}
+{Raymondville, TX: 0.0}
+{Huffington-South Burlington, VT: 261372.02}
+
 After sorting
-MSAWetness{Gaffney, SC: 0.0}
-MSAWetness{Price, UT: 0.0}
-MSAWetness{Raymondville, TX: 0.0}
-MSAWetness{BRKADELPHIA, AR: 12090.601}
-MSAWetness{Fremont, OH: 12103.601}
-MSAWetness{Abilene, TX: 16781.3}
-MSAWetness{Fremont, NE: 22179.602}
-MSAWetness{Abilene, TX: 50343.902}
-MSAWetness{Pullman, WA: 51691.2}
-MSAWetness{California-Lexington Park, MD: 70030.2}
-MSAWetness{Quincy, IL-MO: 122590.4}
-MSAWetness{Huffington-South Burlington, VT: 261372.02}
+MSAWetness
+{Gaffney, SC: 0.0}
+{Price, UT: 0.0}
+{Raymondville, TX: 0.0}
+{BRKADELPHIA, AR: 12090.601}
+{Fremont, OH: 12103.601}
+{Abilene, TX: 16781.3}
+{Fremont, NE: 22179.602}
+{Abilene, TX: 50343.902}
+{Pullman, WA: 51691.2}
+{California-Lexington Park, MD: 70030.2}
+{Quincy, IL-MO: 122590.4}
+{Huffington-South Burlington, VT: 261372.02}
 
